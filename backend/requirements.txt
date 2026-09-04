@@ -1,0 +1,22 @@
+# ScamShield AI — Backend Requirements
+# Note: For production and ML embeddings (sentence-transformers / Actian Vector AI),
+# Python 3.11 or 3.12 virtual environment is recommended.
+
+# Core Web Framework
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.28.0,<1.0.0
+pydantic>=2.6.0,<3.0.0
+pydantic-settings>=2.2.0,<3.0.0
+python-dotenv>=1.0.1,<2.0.0
+
+# HTTP & Testing
+httpx>=0.27.0,<1.0.0
+pytest>=8.0.0,<9.0.0
+
+# Optional Vector & ML Dependencies (Python 3.11/3.12)
+# sentence-transformers>=2.5.0
+# torch>=2.2.0
+
+# AI / LLM (Phase 2)
+# google-genai>=0.1.0
+
